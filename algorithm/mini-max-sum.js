@@ -21,7 +21,8 @@ const solution = (input) => {
     }
   }
 
-  console.log(min_sum, max_sum);
+  console.log('Min, max: ', min, max);
+  console.log('Min sum, max sum: ', min_sum, max_sum);
 };
 
 solution('8 3 5 7 9');
