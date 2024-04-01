@@ -6,7 +6,7 @@ This is a web developer intern assignment at HLS
 
 Link demo: https://zens-intern-assignment.vercel.app/
 
-\*\*\* Note: Because of limited time, I decided to use [Mock API](https://mockapi.io/projects) instead of PHP Laravel
+\*\*\* Note: Because of limited time and knowledge about PHP, I decided to use [Mock API](https://mockapi.io/projects) instead of PHP Laravel
 
 # How to run this project locally
 
