@@ -51,18 +51,18 @@ const Joke = () => {
               "That's all the jokes for today! Come back another day!"}
           </span>
         )}
-        <hr className='w-[750px] max-md:w-[350px] max-sm:w-[250px]' />
-        <div className='flex max-md:flex-col justify-center items-center gap-6 font-[400] text-white'>
+        <hr className='w-[750px] max-lg:w-[450px] max-md:w-[350px] max-sm:w-[250px]' />
+        <div className='flex max-lg:flex-col justify-center items-center gap-6 font-[400] text-white'>
           <button
             disabled={!currentJoke}
-            className='w-[230px] bg-[#2c7edb] max-md:p-4 p-2 shadow-inner'
+            className='w-[230px] bg-[#2c7edb] max-lg:p-4 p-2 shadow-inner'
             onClick={handleVoteFunny}
           >
             This is Funny!
           </button>
           <button
             disabled={!currentJoke}
-            className='w-[230px] bg-[#29b363] max-md:p-4 p-2 shadow-inner'
+            className='w-[230px] bg-[#29b363] max-lg:p-4 p-2 shadow-inner'
             onClick={handleVoteNotFunny}
           >
             This is not funny.

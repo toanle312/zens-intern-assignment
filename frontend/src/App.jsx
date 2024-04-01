@@ -5,14 +5,14 @@ import Joke from '@/components/joke/Joke';
 
 function App() {
   return (
-    <div className='w-full min-h-[100vh]'>
+    <div className='w-full min-h-[100vh] flex flex-col'>
       <div className='w-full h-[80px]'>
         <Navbar />
       </div>
       <div className='w-full h-[200px]'>
         <Content />
       </div>
-      <div className='w-full'>
+      <div className='flex-[0.9] w-full'>
         <Joke />
       </div>
       <div className='w-full h-[150px] max-lg:h-[50px] '>
