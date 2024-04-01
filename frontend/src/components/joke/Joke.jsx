@@ -41,7 +41,7 @@ const Joke = () => {
   };
 
   return (
-    <div className='w-[1024px] m-auto p-8'>
+    <div className='max-sm:w-[400px] max-md:w-[550px] max-lg:w-[700px] w-[1000px] m-auto p-8'>
       <div className='flex flex-col gap-10 items-center justify-center'>
         {isLoading ? (
           <Loading className='size-10' />
@@ -51,18 +51,18 @@ const Joke = () => {
               "That's all the jokes for today! Come back another day!"}
           </span>
         )}
-        <hr className='w-[750px]' />
-        <div className='flex justify-center items-center gap-6 font-[400] text-white'>
+        <hr className='w-[750px] max-md:w-[350px] max-sm:w-[250px]' />
+        <div className='flex max-md:flex-col justify-center items-center gap-6 font-[400] text-white'>
           <button
             disabled={!currentJoke}
-            className='w-[230px] bg-[#2c7edb] p-2 shadow-inner'
+            className='w-[230px] bg-[#2c7edb] max-md:p-4 p-2 shadow-inner'
             onClick={handleVoteFunny}
           >
             This is Funny!
           </button>
           <button
             disabled={!currentJoke}
-            className='w-[230px] bg-[#29b363] p-2 shadow-inner'
+            className='w-[230px] bg-[#29b363] max-md:p-4 p-2 shadow-inner'
             onClick={handleVoteNotFunny}
           >
             This is not funny.

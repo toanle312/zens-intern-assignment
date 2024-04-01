@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div className='w-[1024px] flex flex-col gap-2 items-center justify-center h-full p-5 m-auto'>
-      <div className='flex flex-col text-gray-500 text-[14px] items-center justify-center text-center'>
+    <div className='max-sm:w-[400px] max-md:w-[550px] max-lg:w-[700px] w-[1000px] flex flex-col gap-2 items-center justify-center h-full p-5 m-auto'>
+      <div className='max-lg:hidden flex flex-col text-gray-500 text-[14px] items-center justify-center text-center'>
         <span>
           This website is created as part of Hlsolutions program. The materials
           contained on this website are provided for general

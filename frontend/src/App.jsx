@@ -15,7 +15,7 @@ function App() {
       <div className='w-full'>
         <Joke />
       </div>
-      <div className='w-full h-[150px]'>
+      <div className='w-full h-[150px] max-lg:h-[50px] '>
         <hr className='border-gray-300' />
         <Footer />
       </div>
