@@ -1,8 +1,31 @@
-# React + Vite
+# Jokee Single Serving Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web developer intern assignment at HLS
 
-Currently, two official plugins are available:
+![UI](image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Link demo: https://zens-intern-assignment.vercel.app/
+
+\*\*\* Note: Because of limited time, I decided to use [Mock API](https://mockapi.io/projects) instead of PHP Laravel
+
+# How to run this project locally
+
+- Required: Node (20.11.1), npm (10.2.4)
+- Clone this repo to your device and run:
+  ```bash
+    npm i
+  ```
+- Config your `.env`
+
+  ```env
+    VITE_MOCK_API=Your MOCK API root
+  ```
+
+- Run project in dev mode:
+  ```bash
+    npm run dev
+  ```
+
+# Author
+
+- [toanle312](https://github.com/toanle312)
